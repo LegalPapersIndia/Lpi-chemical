@@ -13,13 +13,13 @@ const LpiNavbar = () => {
   ];
 
   const productCategories = [
-    { name: "Chemicals", href: "/products/chemicals" },
-    { name: "Polymers", href: "/products/polymers" },
-    { name: "Specialty Additives", href: "/products/additives" },
+    { name: "Chemicals", href: "/chemicals" },
+    { name: "Polymers", href: "/polymers" },
+    { name: "Specialty Additives", href: "/additives" },
   ];
 
   const closeAllMenus = () => {
-    setIsMobileMenuOpen(false);
+    setIsMobileMenuOpen(false); 
     setIsProductsDropdownOpen(false);
   };
 
